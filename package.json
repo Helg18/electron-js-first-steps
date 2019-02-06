@@ -1,0 +1,14 @@
+{
+    "name": "electron-js-first-steps",
+    "dependencies": {
+        "electron": "^5.0.0-beta.2"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "main": "main.js",
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "Este es mi primer acercamiento para el desarrollo de aplicaciones de escritorio con electronjs",
+    "author": "Henry Leon"
+}
