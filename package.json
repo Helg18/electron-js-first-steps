@@ -1,14 +1,34 @@
 {
     "name": "electron-js-first-steps",
     "dependencies": {
-        "electron": "^5.0.0-beta.2"
+        "buefy": "^0.7.2",
+        "bulma": "^0.7.2",
+        "electron": "^5.0.0-beta.2",
+        "electron-builder": "^20.38.5",
+        "electron-webpack": "^2.6.1",
+        "vue": "^2.6.2",
+        "vue-router": "^3.0.2",
+        "vuex": "^3.1.0",
+        "webpack": "^4.29.2"
+    },
+    "build": {
+        "appId": "henryleon.com.ve",
+        "mac": {
+            "category": "com.henryleon.ve.electron-app"
+        }
     },
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
     },
     "main": "main.js",
     "version": "0.0.0",
     "license": "MIT",
     "description": "Este es mi primer acercamiento para el desarrollo de aplicaciones de escritorio con electronjs",
-    "author": "Henry Leon"
+    "author": "Henry Leon",
+    "devDependencies": {
+        "eslint": "^5.13.0",
+        "eslint-config-google": "^0.12.0"
+    }
 }
